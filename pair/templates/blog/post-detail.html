@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Detail</title>
+</head>
+<body>
+
+    <h3>{{ post_detail.title}}</h3>
+    <p>{{ post_detail.text}}</p>
+    <p>{{ post_detail.author}}</p>
+    <p>{{ post_detail.created_date}}</p>
+
+    <button><a href="{% url 'post_list' %}">Back Page</a></button>
+</body>
+</html>
