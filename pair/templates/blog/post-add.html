@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Add Page</title>
+</head>
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+    <fieldset>
+        <legend>POST ADD</legend>
+        <label>Author</label>
+        <input type="text" name="input_name"/>
+        <label>Title</label>
+        <input type="text" name="input_title"/>
+        <label>Content</label>
+        <input type="textarea" name="input_text"/>
+    </fieldset>
+    <button type="submit">Write</button>
+</form>
+</body>
+</html>

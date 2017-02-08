@@ -6,10 +6,11 @@
 </head>
 <body>
 
-    <h3>{{ post_detail.title}}</h3>
-    <p>{{ post_detail.text}}</p>
-    <p>{{ post_detail.author}}</p>
-    <p>{{ post_detail.created_date}}</p>
+    <p>Post Author : {{ post_detail.author}}</p>
+    <p>Post Created_Time : {{ post_detail.created_date}}</p>
+    <h3>Post Title : {{ post_detail.title}}</h3>
+    <p>Post Text : {{ post_detail.text}}</p>
+
 
     <button><a href="{% url 'post_list' %}">Back Page</a></button>
 </body>
